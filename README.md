@@ -1,2 +1,2 @@
 # Competitive-Programming
-This contains some CP programs
+This contains some programs commanly used in CP.
