@@ -1,6 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
 long long x, y, d;
 
-void extendedEuclid(long A, long B) {
+void extendedEuclid(long long A, long long B) {
     if(B == 0){
         d = A;
         x = 1;
@@ -17,3 +19,9 @@ long long modInverse(long long A, long long M) {
     extendedEuclid(A ,M);
     return (x % M + M) % M;
 }
+int main(){
+    long long a, b;
+    cin >> a >> b;
+    cout << modInverse(a, b);
+}
+    
