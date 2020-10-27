@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
 #define ll long long
-#define REP(var, start, stop, step) for(long long var = start; var < stop; var += step)
-#define fori(a, n) for(long long i = a; i < n; i++)
-#define forj(a, n) for(long long j = a; j < n; j++)
-#define fork(a, n) for(long long k = a; k < n; k++)
 #define ee 1000000007
 #define pb push_back
 #define fio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
